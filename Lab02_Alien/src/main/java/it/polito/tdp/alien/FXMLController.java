@@ -32,6 +32,7 @@ public class FXMLController {
 
     @FXML
     void doTranslate(ActionEvent event) {
+    	//errori lanciando dizionario.addWord e dizionario.translate.
     	String s = txtparola.getText();
     	
     	if(s.contains(" ") && s.matches("(.*)[a-z](.*)")) {
